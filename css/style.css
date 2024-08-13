@@ -1,0 +1,101 @@
+body {
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+/*--Header--*/
+header {
+    font-size: 28px;
+    font-stretch: 100%;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none solid;
+}
+
+/*--Navigation Bar--*/
+nav {
+    font-family: poppins, sans-serif;
+    background-color: #F9ECE6;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0px;
+}
+nav ul li {
+    color: #464646;
+    font-size: 16px;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+nav li a{
+    color: #464646;
+    text-decoration: none;
+}
+
+nav li img {
+    width: 20px;
+    height: 19px;
+    margin-right: 3px;
+    vertical-align: bottom;
+}
+
+nav .log{
+    color: black;
+}
+
+nav .shop-search {
+    width: 10px;
+    height: 10px;
+    margin-left: 15px; 
+    vertical-align:auto;
+}
+
+/*--Main--*/
+main { 
+    height: 90vh;
+    background-color: #F89CAB;
+    background-size: cover;
+}
+
+main .description {
+    float: left;
+    color: white;
+    margin: 140px 0px 0px 140px;
+}
+
+main .description .title {
+    font-size: 67.2px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+main .description .desc {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+main .description .button-1 {
+    margin: 25px 0px 0px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 10px;
+    background-color: #DB4566;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+main .model-icon img {
+    float: right;
+    width: 270px;
+    margin:70px 250px 0 0;
+}
+
+.clear {
+    clear: both;
+}
