@@ -2,6 +2,7 @@ body {
     font-family: poppins, sans-serif;
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 /*--Header--*/
@@ -10,7 +11,7 @@ header {
     text-align: center;
 }
 
-header a {
+header a, .products{
     text-decoration: none;
     color: black;
     font-size: 28px;
@@ -127,4 +128,70 @@ main .model-icon img {
 
 .clear {
     clear: both;
+}
+
+/*--Latest Products--*/
+
+.products {
+    font-size: 35px;
+    margin: 70px 0px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+    margin: 0 150px;
+}
+
+.product-card {
+    width: 270px;
+    height: 290px;
+    justify-self:center;
+    background-color: #eeeeee;
+}
+
+.product-card img {
+    width: 100px;
+    height: 140px;
+    margin: 60px 85px 45px ;
+}
+
+.product-title {
+    font-size: 18px;
+    word-spacing: 3cm;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+.button-2{
+    display: block;
+    margin: auto;
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: 10px;
+    background-color: #F16179;
+    color:white;
+    font-weight: 500;
+    font-size: 16px;
+    -webkit-transition: background, color, border 0.6s;
+    -moz-transition: background, color, border 0.6s;
+    -ms-transition: background, color, border 0.6s;
+    -o-transition: background, color, border 0.6s;
+    transition: background, color, border 0.6s;
+}
+
+.button-2:hover {
+    background-color: transparent;
+    border: solid 1px #DB4566;
+    color: #DB4566;
+}
+
+.button-22 a {
+    text-decoration: none;
+}
+
+.button-22 {
+    margin: 50px 0;
 }
